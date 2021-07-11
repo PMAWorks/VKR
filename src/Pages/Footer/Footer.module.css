@@ -1,0 +1,102 @@
+.Footer{
+    width: 100%;
+    background-color: #d1d9e2;
+    border-radius: 40px 40px 0px 0px;
+    height: min-content;
+    margin-top: 30px;
+}
+
+.FooterContainer{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0px auto;
+}
+
+.PageName{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 22px;
+height: 50px;
+letter-spacing: 0.085em;
+margin-top: 20px;
+
+color: #003045;
+}
+
+.MainInfo{
+    font-family: Montserrat;
+font-style: normal;
+height: 40px;
+font-weight: 900;
+font-size: 20px;
+line-height: 20px;
+letter-spacing: 0.085em;
+
+color: #E84A02;
+}
+
+.MainInfo:hover{
+    text-decoration: none;
+}
+
+.Info{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.085em;
+
+color: #003045;
+}
+
+@media (max-width: 1700px){
+    .Info{
+        font-size: 16px;
+    }
+
+    .MainInfo{
+        font-size: 22px;
+    }
+
+    .PageName{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1450px){
+    .Info{
+        font-size: 14px;
+    }
+
+    .MainInfo{
+        font-size: 20px;
+    }
+
+    .PageName{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1450px){
+    .Info{
+        font-size: 12px;
+    }
+
+    .MainInfo{
+        font-size: 18px;
+    }
+
+    .PageName{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 800px){
+    .FooterContainer{
+        width: 80%;
+        display: block;
+        margin: 0px auto;
+    }
+}

@@ -1,0 +1,17 @@
+.App {
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1920px;
+  background-color: #E5E5E5
+}
+
+input{
+  outline: none;
+}
+
+@media (max-width: 1025px){
+  .App {
+    width: 100%;
+    margin: 0px auto;
+  }
+}

@@ -1,0 +1,181 @@
+.TechnicPage{
+    width: 80%;
+    margin: 0px auto;
+    min-height: 60vh;
+}
+
+.FirstBlock{
+    width: 100%;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: white;
+    background: linear-gradient(180deg, #C8D2D9 0%, rgba(235, 237, 239, 0) 100%);
+    border-radius: 20px;
+}
+
+.Image{
+    max-width: 100%;
+    max-height: 300px;
+    margin: 0px auto;
+}
+
+.Button{
+    background: #003045;
+    width: 190px;
+    height: 50px;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.Right{
+    text-align: right;
+}
+
+.TableInfo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    
+    color: #003045;
+}
+
+.TebleTop{
+    background: white;
+}
+
+.TableInfoBlock{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height */
+
+color: #003045;
+}
+
+.zal{
+    background-color: #C8D2D9;
+}
+
+.PageName{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 40px;
+/* identical to box height */
+
+letter-spacing: 0.115em;
+
+color: #E84A02;
+
+}
+
+.GoodButton{
+    background: #006134;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+
+.input__wrapper {
+    width: 100%;
+    position: relative;
+    margin: 15px 0;
+  }
+   
+  .input__file {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+  }
+   
+  .input__filebutton {
+    width: 100%;
+    max-width: 290px;
+    height: 60px;
+    background: #00624f;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  .InputText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0.07em;
+    padding-left: 20px;
+    position: relative;
+    color: #ffffff;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+  }
+
+  .Activeinput__filebutton{
+    width: 100%;
+    max-width: 290px;
+    height: 60px;
+    background: #00c29b;
+    color: #fff;
+    font-size: 1.125rem;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+
+  @media (max-width: 800px){
+    .TechnicPage{
+        width: 95%;
+        margin: 0px auto;
+    }
+
+
+
+    .Button{
+        background: #003045;
+        width: 190px;
+    height: 40px;
+    border: none;
+        color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 63px;
+    }
+
+    .FirstBlock{
+        width: 100%;
+        padding: 20px 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        background: white;
+        background: linear-gradient(180deg, #C8D2D9 0%, rgba(235, 237, 239, 0) 100%);
+        border-radius: 20px;
+    }
+
+    .GoodButton{
+        background: #006134;
+        width: 190px;
+    height: 40px;
+    border: none;
+        color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 63px;
+    }
+  }

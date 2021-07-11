@@ -1,0 +1,411 @@
+.MainPage{
+    background-color: #E5E5E5;
+    min-height: 60vh;
+}
+
+.BlockName{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+text-align: center;
+letter-spacing: 0.085em;
+
+color: #003045;
+}
+
+.NapCards{
+    width: 62%;
+    margin: 0px auto;
+}
+
+.PreimBlock{
+    width: 62%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 200px 100px 1fr;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 43px;
+/* identical to box height */
+
+letter-spacing: 0.085em;
+
+color: #003045;
+}
+
+.LastPreim{
+    background: #E1E6EB;
+border-radius: 63px;
+width: 62%;
+height: min-content;
+margin: 73px auto;
+padding: 20px;
+box-shadow: -5px 5px 5px gray;
+}
+
+.LastPreimContainer{
+    width: 80%;
+    margin: 20px auto;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+text-align: justify;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.085em;
+}
+
+.Red{
+    color: #E84A02;
+    
+}
+
+.MainPreim{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 72px;
+text-align: right;
+line-height: 88px;
+/* identical to box height */
+
+color: #E84A02;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Card{
+    width: 100%;
+    height: 360px;
+    margin: 22px auto;
+}
+
+.Image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 84px;
+}
+
+.Grad1{
+    background: linear-gradient(to right, rgba(232, 74, 2, 0.31),  rgba(200, 210, 217, 0.31));
+    width: 100%;
+    position: relative;
+    top: -360px;
+    height: 100%;
+    border-radius: 84px;
+    z-index: 2;
+}
+
+.Grad2{
+    background: linear-gradient(to right, rgba(0, 48, 69, 0.51),  rgba(200, 210, 217, 0.31));
+    width: 100%;
+    position: relative;
+    top: -360px;
+    height: 100%;
+    border-radius: 84px;
+    z-index: 2;
+}
+
+.CardName{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 125.7%;
+/* or 45px */
+
+text-align: center;
+
+color: #EBEDEF;
+position: relative;
+top: -630px;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+z-index: 3;
+}
+
+.CardText{
+    width: 80%;
+    margin: 0px auto;
+    z-index: 3;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: justify;
+line-height: 22px;
+letter-spacing: 0.085em;
+top: -600px;
+position: relative;
+color: #EBEDEF;
+
+}
+
+@media (max-width: 1200px){
+
+    .MainPreim{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 62px;
+    text-align: right;
+    line-height: 88px;
+    /* identical to box height */
+    
+    color: #E84A02;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .PreimBlock{
+        width: 80%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 200px 100px 1fr;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    
+    letter-spacing: 0.085em;
+    
+    color: #003045;
+    }
+
+    .NapCards{
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .Card{
+        width: 100%;
+        height: 260px;
+        margin: 22px auto;
+    }
+    
+    .Image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 84px;
+    }
+    
+    .Grad1{
+        background: linear-gradient(to right, rgba(232, 74, 2, 0.31),  rgba(200, 210, 217, 0.31));
+        width: 100%;
+        position: relative;
+        top: -260px;
+        height: 100%;
+        border-radius: 84px;
+        z-index: 2;
+    }
+    
+    .Grad2{
+        background: linear-gradient(to right, rgba(0, 48, 69, 0.51),  rgba(200, 210, 217, 0.31));
+        width: 100%;
+        position: relative;
+        top: -260px;
+        height: 100%;
+        border-radius: 84px;
+        z-index: 2;
+    }
+    
+    .CardName{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 125.7%;
+    /* or 45px */
+    
+    text-align: center;
+    
+    color: #EBEDEF;
+    position: relative;
+    top: -490px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    }
+    
+    .CardText{
+        width: 80%;
+        margin: 0px auto;
+        z-index: 3;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.085em;
+    top: -460px;
+    position: relative;
+    color: #EBEDEF;
+    }
+
+    
+.LastPreim{
+    background: #E1E6EB;
+border-radius: 63px;
+width: 80%;
+height: min-content;
+margin: 73px auto;
+padding: 20px;
+box-shadow: -5px 5px 5px gray;
+}
+
+.LastPreimContainer{
+    width: 80%;
+    margin: 20px auto;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+text-align: justify;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.085em;
+}
+
+}
+
+
+@media (max-width: 720px){
+
+    .MainPreim{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    text-align: right;
+    line-height: 88px;
+    /* identical to box height */
+    
+    color: #E84A02;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .MainPage{
+        background-color: #E5E5E5;
+        min-height: 60vh;
+        width: 90%;
+        margin: 0px auto;
+    }
+
+    .PreimBlock{
+        width: 90%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 70px 50px 1fr;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    
+    letter-spacing: 0.085em;
+    
+    color: #003045;
+    }
+
+    .NapCards{
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    .Card{
+        width: 100%;
+        height: 200px;
+        margin: 22px auto;
+    }
+    
+    .Image{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 24px;
+    }
+    
+    .Grad1{
+        background: linear-gradient(to right, rgba(232, 74, 2, 0.31),  rgba(200, 210, 217, 0.31));
+        width: 100%;
+        position: relative;
+        top: -200px;
+        height: 100%;
+        border-radius: 24px;
+        z-index: 2;
+    }
+    
+    .Grad2{
+        background: linear-gradient(to right, rgba(0, 48, 69, 0.51),  rgba(200, 210, 217, 0.31));
+        width: 100%;
+        position: relative;
+        top: -200px;
+        height: 100%;
+        border-radius: 24px;
+        z-index: 2;
+    }
+    
+    .CardName{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 125.7%;
+    /* or 45px */
+    
+    text-align: center;
+    
+    color: #EBEDEF;
+    position: relative;
+    top: -395px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 3;
+    }
+    
+    .CardText{
+        width: 90%;
+        margin: 0px auto;
+        z-index: 3;
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0.085em;
+    top: -390px;
+    position: relative;
+    color: #EBEDEF;
+    }
+
+    
+.LastPreim{
+    background: #E1E6EB;
+border-radius: 23px;
+width: 100%;
+height: min-content;
+margin: 33px auto;
+padding: 10px;
+box-shadow: -5px 5px 10px gray;
+}
+
+.LastPreimContainer{
+    width: 90%;
+    margin: 20px auto;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+text-align: justify;
+font-size: 14px;
+line-height: 14px;
+letter-spacing: 0.085em;
+}
+
+}

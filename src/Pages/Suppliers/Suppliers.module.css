@@ -1,0 +1,176 @@
+.CategoryBlock{
+    position: relative;
+    width: 100%;
+    min-width: 500px;
+}
+
+.TopPart{
+    display: grid;
+    grid-template-columns: 1fr 140px;
+}
+
+.SupplierPage{
+    width: 80%;
+    min-height: 60vh;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.TebleTop{
+    background: white;
+}
+
+
+.CreateButton{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-align: right;
+cursor: pointer;
+width: 100px;
+letter-spacing: 0.07em;
+color: #E84A02;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Right{
+    text-align: right;
+}
+
+.Button{
+    background: #003045;
+    width: 190px;
+    height: 40px;
+    margin: 20px 0;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.GoodButton{
+    background: #006134;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.BadButton{
+    background: #7c0000;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.CompanyName{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 50px;
+letter-spacing: 0.115em;
+
+color: #000000;
+}
+
+.Info{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 3px;
+
+color: #003045;
+}
+
+.TableInfo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #003045;
+}
+
+.TableInfoBlock{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height */
+
+color: #003045;
+}
+
+.Open{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+display: inline;
+/* identical to box height */
+margin: 10px;
+letter-spacing: 0.115em;
+
+color: #000000;
+cursor: pointer;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.zal{
+    background-color: #C8D2D9;
+}
+
+.CLose{
+    margin: 10px;
+    font-family: Montserrat;
+    cursor: pointer;
+font-style: normal;
+display: inline;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.115em;
+
+color: #E84A02;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.MoreInfo{
+    margin: 30px auto;
+}
+
+@media (max-width: 800px){
+    .SupplierPage{
+        width: 95%;
+        min-height: 60vh;
+        margin: 0px auto;
+        overflow: hidden;
+    }
+
+    .Info{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    
+    color: #003045;
+    }
+}

@@ -1,0 +1,259 @@
+.TechnicPage{
+    width: 80%;
+    min-height: 60vh;
+    margin: 0px auto;
+}
+
+.TopPart{
+    display: grid;
+    grid-template-columns: 1fr 140px;
+}
+
+.CreateButton{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-align: right;
+cursor: pointer;
+width: 100px;
+letter-spacing: 0.07em;
+color: #E84A02;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.PhotoInput{
+    outline:0;
+    cursor: pointer;
+    opacity:0;
+    pointer-events:none;
+    user-select:none;
+}
+
+.labelActive{
+    width: 80%;
+    margin: 0px auto;
+    height: 600px;
+    cursor: pointer;
+    border: 2px dotted #E84A02;
+    border-radius: 20px;
+}
+
+.labelActiveActive{
+    width: 80%;
+    margin: 0px auto;
+    height: 600px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.Right{
+    text-align: right;
+}
+
+.NewPhotoPreview{
+    margin: 0px auto;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Object{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Button{
+    background: #003045;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.Objects{
+    width: 100%;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.ObjectCard{
+    width: 80%;
+    margin: 0px auto;
+    height: 500px;
+}
+
+.ObjectCardImage{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.ObjectName{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+height: 20px;
+line-height: 22px;
+text-align: center;
+position: relative;
+width: 90%;
+margin: 0px auto;
+top: -590px;
+color: #FFFFFF;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Grad{
+    height: 300px;
+    width: 100%;
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    top: -300px;
+    background: linear-gradient(to bottom, #00328377 10%, rgba(235, 237, 239, 0));
+}
+
+.FirstStatus{
+    width: 100%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height */
+position: relative;
+top:-320px;
+text-align: center;
+background: #004a6e;
+height: 40px;
+color: #FFFFFF;
+}
+
+.SecondStatus{
+    width: 100%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height */
+position: relative;
+top:-320px;
+text-align: center;
+background: #00661f;
+height: 40px;
+color: #FFFFFF;
+}
+
+.ObjectCardText{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.07em;
+position: relative;
+top:-300px;
+color: #000000;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+}
+
+.Status{
+    width: 100%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 40px;
+/* identical to box height */
+position: relative;
+top:-320px;
+text-align: center;
+height: 40px;
+color: #FFFFFF;
+}
+
+.Info{
+    width: 100%;
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 40px;
+/* identical to box height */
+position: relative;
+top:-320px;
+height: 40px;
+color: black;
+}
+
+
+@media (max-width: 1500px){
+    .Objects{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 30px auto;
+    }
+  }
+
+  @media (max-width: 1100px){
+    .Objects{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px auto;
+    }
+
+    .Object{
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 800px){
+    .TechnicPage{
+        width: 95%;
+        margin: 0px auto;
+    }
+    
+  }
+
+  @media (max-width: 550px){
+    .Objects{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 30px auto;
+    }
+
+
+    
+.labelActive{
+    width: 100%;
+    margin: 0px auto;
+    height: 400px;
+    cursor: pointer;
+    border: 2px dotted #E84A02;
+    border-radius: 20px;
+}
+
+.labelActiveActive{
+    width: 100%;
+    margin: 0px auto;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+  }

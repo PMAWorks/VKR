@@ -1,0 +1,118 @@
+.ClientsPage{
+    width: 80%;
+    margin: 0px auto;
+    min-height: 60vh;
+    overflow: hidden;
+}
+
+.TopPart{
+    display: grid;
+    grid-template-columns: 1fr 140px;
+}
+
+
+.TableInfo{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #003045;
+}
+
+.zal{
+    background-color: #C8D2D9;
+}
+
+.TableInfoBlock{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+/* identical to box height */
+
+color: #003045;
+}
+
+.TebleTop{
+    background: white;
+}
+
+.Right{
+    text-align: right;
+}
+
+.Button{
+    background: #003045;
+    width: 190px;
+    height: 40px;
+    margin: 20px 0;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.GoodButton{
+    background: #006134;
+    width: 190px;
+    height: 40px;
+    border: none;
+    color: white;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 63px;
+}
+
+.CreateButton{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+text-align: right;
+cursor: pointer;
+width: 100px;
+letter-spacing: 0.07em;
+color: #E84A02;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.TableHeadDes{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 42px;
+    /* identical to box height */
+    
+    letter-spacing: 0.085em;
+    
+    color: #003045;    
+  }
+
+  .CategoryBlock{
+    position: relative;
+    width: 100%;
+    min-width: 700px;
+}
+
+@media (max-width: 800px){
+    .ClientsPage{
+        width: 95%;
+        margin: 0px auto;
+        min-height: 60vh;
+    }
+
+    .TableInfoBlock{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #003045;
+    }
+}
+
