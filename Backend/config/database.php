@@ -2,10 +2,10 @@
 class Database {
 
     // укажите свои учетные данные базы данных 
-    private $host = "localhost";
-    private $db_name = "u0722320_kursovaya";
-    private $username = "u0722320_mpa";
-    private $password = "89031458261Mama.";
+    private $host = "********";;
+    private $db_name = "********";;
+    private $username = "********";
+    private $password = "********";
     public $conn;
 
     // получаем соединение с БД 
